@@ -1,0 +1,80 @@
+12-april-2017:
+--------------
+/tilttextiles.com/html/stage/skin/frontend/spintales/default/images/
+
+->content-syndication
+
+/tilttextiles.com/html/stage/skin/frontend/spintales/default/images/
+->meet-the-characters
+
+/tilttextiles.com/html/stage/skin/frontend/spintales/default/images/
+->press
+
+
+/tilttextiles.com/html/stage/skin/frontend/spintales/default/css
+->style.css
+
+/tilttextiles.com/html/stage/skin/frontend/spintales/default/js/incjs
+->script.js
+
+app/code/core/Mage/Sales/Block/Guest
+->links.php
+
+stage/app/design/frontend/spintales/default/template/page/html
+->menu link add friend 20% link
+
+------------------------------------------------
+
+/tilttextiles.com/html/stage/media/wysiwyg/images/banner
+	home page slider images --
+
+/tilttextiles.com/html/stage/app/design/frontend/base/default/template/page/html
+head.phtml ->redirect rug, duvet ->ok in production
+
+/tilttextiles.com/html/stage/app/design/frontend/spintales/default/template/page/html
+	header.php
+	add tag in menu 
+
+:loading image files location ->start --> done in production
+
+/tilttextiles.com/html/stage/skin/frontend/spintales/default/images/owl.gif
+	change loading image	
+	/tilttextiles.com/html/stage/app/design/frontend/base/default/template/bricks/checkout/
+		onepage.phtml
+	/tilttextiles.com/html/stage/app/design/frontend/spintales/default/template/checkout/onepage/
+		payment.phtml
+	/tilttextiles.com/html/stage/app/design/frontend/spintales/default/template/checkout/onepage/
+		shipping.phtml
+	/tilttextiles.com/html/stage/app/design/frontend/spintales/default/template/checkout/onepage/
+		shipping_method.phtml
+	/tilttextiles.com/html/stage/app/design/frontend/spintales/default/template/checkout/onepage/review/
+		reviewinfo.phtml
+	/tilttextiles.com/html/stage/app/design/frontend/spintales/default/template/page/html/
+		footer.phtml
+
+:loading image files location ->end
+
+/tilttextiles.com/html/stage/skin/frontend/spintales/default/css
+/tilttextiles.com/html/stage/skin/frontend/spintales/default/js/incjs
+
+
+
+https://www.tilttextiles.com/stage/media/wysiwyg/images/banner/
+banner2_1.png
+banner5_1.png
+
+https://www.tilttextiles.com/stage/skin/frontend/spintales/default/images/content-syndication/
+sec-three-tmbnl3.png
+
+
+https://www.tilttextiles.com/stage/skin/frontend/base/default/images/content-syndication/new.png
+
+
+1. FriendBuy Implementation -> ok in production
+2. Update Home Page Sliders -> ok in production
+3. Content Syndication Edits -> ok in production
+4. Loading Image (Owl) -> ok in production
+5. URL Redirection Pushed For Next Build -> ok in production
+6. Meet Characters Page -> ok in production
+
+7. Cart Abandonment

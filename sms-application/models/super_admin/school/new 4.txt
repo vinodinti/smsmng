@@ -1,0 +1,31 @@
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS getStudentDetails $$
+CREATE PROCEDURE getStudentDetails(IN StudentID VARCHAR(11))
+BEGIN
+
+ SELECT * FROM scmngs_student WHERE student_id=StudentID;
+
+END $$
+
+DELIMITER ;
+
+
+
+
+ 
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS checkLogin $$
+CREATE PROCEDURE checkLogin(IN AdminEmailID VARCHAR(100), IN AdminPassword VARCHAR(200))
+BEGIN
+
+  SELECT admin_id, admin_full_name, admin_email_id, admin_gender, role_fk_id, admin_status 
+ FROM hms_admin WHERE admin_email_id=AdminEmailID AND admin_password=AdminPassword;
+
+END $$
+
+DELIMITER ;
+
+Techouts@1234
+
